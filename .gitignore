@@ -1,0 +1,13 @@
+# Secrets - never commit
+.env
+.env.*
+!.env.example
+
+# Generated
+litellm_config.yaml
+litellm_config.yaml.tmp
+*.log
+
+# Local tool state
+.aider*
+!aider.conf.template.yml
